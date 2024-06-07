@@ -1206,6 +1206,7 @@ def install_poetry_dependencies(query, path):
                     "--output",
                     "requirements.txt",
                     "--with-credentials",
+                    "--without-hashes",
                 ],
                 [
                     python_exec,
